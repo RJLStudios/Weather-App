@@ -1,0 +1,96 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: lato;
+    background: url(Images/london.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main {
+  
+}
+
+.app {
+     border-radius: 25px;
+    margin:  300px auto;
+    padding: 50px;
+    width: 500px;
+    height: fit-content;
+    background-color: #000000d0;
+    color: white;
+    
+}
+/*SEARCH INPUT STYLES*/
+.search-bar {
+    display: flex;
+    width: 100%;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.search-input {
+    padding: 0px 180px 0px 16px;
+    margin: 6px 0px;
+    border-radius: 50px;
+    font-size: 18px;
+    border-style: none;
+    background-color: #7c7c7c2b;
+    position: relative;
+    color: white;  
+}
+
+ .search-icon {
+ padding-left: 452px;
+ top: 375px;
+ position: absolute;
+ cursor: pointer;
+}
+    
+.search-button {
+padding: 25px;
+border-radius: 50px;
+height: 1.2em;
+margin: 0.5em;
+  border-style: none;
+cursor: pointer;
+background-color: #7c7c7c2b;
+position: relative;  
+}
+
+/*ERROR STYLES*/
+.input-error {
+    /*border: 1px solid #d50000;*/
+}
+.error-message {
+    color: #d50000;
+    visibility: hidden;
+    margin: -1px 0px -15px 5px;
+}
+
+/*APP DETAIL STYLES*/
+.country{
+    font-size: 38px;
+}
+
+.degrees{
+    font-size: 46px;
+}
+.weather-info {
+    font-size: 20px;
+}
+.weather-status{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.humidity{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.wind-speed{
+    font-size: 20px;
+}
