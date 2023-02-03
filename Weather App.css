@@ -84,6 +84,7 @@ position: relative;
 .weather-status{
     font-size: 20px;
     margin-bottom: 6px;
+    text-transform: capitalize;
 }
 
 .humidity{
